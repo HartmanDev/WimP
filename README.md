@@ -19,7 +19,7 @@ MINIMAL CONFIGURATION:
 WHAT YOU MUST BE ATTENTIVE TO:
 
 - Your maze has to be smaller than 100x100, because it's coded in byte.
-- To use the library you have to use a maze without blanks squares greater than 2x2 !!! or the algo won't be able to find a path.
+- To use the library you have to use a maze without blanks squares greater than 2x2 or the algo won't be able to find a path.
 - X and Y are like this : X goes down from the top, Y goes right from the left. because of the use of Arrays in the programm.
 ---------------------------------------------------------------------------------
 
