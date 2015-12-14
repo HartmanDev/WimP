@@ -26,3 +26,6 @@ WHAT YOU MUST BE ATTENTIVE TO:
 If you enter a position similar to a wall or out of the map, the programm will throw an exception telling you what you've done wrong.
 
 Before the algorithm try to find a path, it will cleans the map by blocking dead end and a case surrounded by 2 walls in a block 2x2 to prevent "cube" in the path solution.
+
+FindPath.cs is the main class, Carrefour.cs and Chemin.cs are the children of FindPath.
+To use these classes you have to instantiate an FindPath object then use .Find(Map,PosX,PosY,DestX,DestY).
