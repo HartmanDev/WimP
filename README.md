@@ -1,6 +1,6 @@
 # WimP
 WimP is a personnal PathFinding project based on the A* (a-star) algorithm improved to find the shortest path in a maze with multiple possibilites.
-/!\ Comments and Debug file are en French because it's my native language. /!\
+/!\ Comments and Debug file are in French because it's my native language. /!\
 
 ---------------------------------------------------------------------------------
 
