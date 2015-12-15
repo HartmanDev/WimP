@@ -20,20 +20,23 @@ Informations:
 
 BE CAREFULL WITH X & Y. They are NOT logical.
 
-"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile".
+"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile".<br />
 "Saisir X puis Y de la destination" : Writes the X and Y position of the "prey or "destination".
 
 
 HOW TO ADD MAPS:
-You can add as many maps as you wish by adding them directly in the code of Form1.cs like this.
 
-initialize an Int[,] array with a name, MyArray for example and put the values in like this:
+
+initialize an Int[,] array with a name, MyArray for example and put the values in.
+
     - (it has to be rectangular)
     - 1 is a wall
     - 0 is a possible path
+    
 Then in Form1_Load, add your MyArray in the List like this : <<-- ListeDesMaps.Add(MyArray); -->>
 
 Example:
+
     private int[,] tmap2 = 
         {
            
@@ -59,3 +62,6 @@ Example:
                 ListeDesMaps.Add(tmap0); 
                 
                 ...
+                
+                
+You can add as many maps as you wish by adding them directly in the code of Form1.cs like this.
