@@ -19,7 +19,7 @@ Informations:
     - Précision : Tells you the state of "Précision double" <normal> is OFF | <double> is ON. slightly increases the exec time.
     - Temps requis : Shows the execution time.
 
-"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile"
+"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile".
 "Saisir X puis Y de la destination" : Writes the X and Y position of the "prey or "destination".
 
 BE CAREFULL WITH X & Y. They are NOT logical.
