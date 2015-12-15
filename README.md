@@ -13,9 +13,7 @@ Developped on :
 
 MINIMAL CONFIGURATION:
 - RAM: 512 Mo
-- Windows 7 (32 or 64 bits)
-- Without Service pack ==> .Net v4
-- With Service pack 1 ===> .Net v4 or greater
+- Framework: .Net v4 or greater
 
 ---------------------------------------------------------------------------------
 
