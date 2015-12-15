@@ -5,9 +5,9 @@ WimP is a personnal PathFinding project based on the A* (a-star) algorithm impro
 ---------------------------------------------------------------------------------
 
 Developped on :
-Windows 7 Pro 64x
-Visual Studio 2013 Ultimate
-Microsoft .NET 4.5
+- Windows 7 Pro 64x
+- Visual Studio 2013 Ultimate
+- Microsoft .NET 4.5
 
 ---------------------------------------------------------------------------------
 
