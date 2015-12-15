@@ -1,5 +1,3 @@
-/!\ YOU HAVE TO PUT FindPath.cs, Chemin.cs AND Carrefour.cs from WIMP in the directory of this app /!\
-
 Create a folder and put each file and the 3 classes into, then open Demo PathFinder.csproj with Visual Studio.
 Build the project and you should be able to run it.
 
