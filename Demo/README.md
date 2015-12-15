@@ -18,9 +18,44 @@ Informations:
     - Précision : Tells you the state of "Précision double" <normal> is OFF | <double> is ON. slightly increases the exec time.
     - Temps requis : Shows the execution time.
 
-"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile".
-
-"Saisir X puis Y de la destination" : Writes the X and Y position of the "prey or "destination".
-
 BE CAREFULL WITH X & Y. They are NOT logical.
 
+"Saisir X puis Y de l'objet" : Writes the X and Y position of the "hunter" or "mobile".
+"Saisir X puis Y de la destination" : Writes the X and Y position of the "prey or "destination".
+
+
+HOW TO ADD MAPS:
+You can add as many maps as you wish by adding them directly in the code of Form1.cs like this.
+
+initialize an Int[,] array with a name, MyArray for example and put the values in like this:
+    - (it has to be rectangular)
+    - 1 is a wall
+    - 0 is a possible path
+Then in Form1_Load, add your MyArray in the List like this : <<-- ListeDesMaps.Add(MyArray); -->>
+
+Example:
+    private int[,] tmap2 = 
+        {
+           
+            {1,0,0,0,0,0,1,0,1},
+            {0,0,1,0,1,0,0,0,0},
+            {1,0,0,0,0,0,1,1,0},
+            {0,0,1,0,1,0,0,0,0},
+            {0,0,1,0,1,0,1,0,1},
+            {1,1,0,0,0,0,1,0,0},
+            {0,0,0,1,0,0,0,0,0},
+            {0,1,1,1,0,1,0,1,0},
+            {0,0,0,0,0,1,0,0,0}
+        };
+        private int[,] Path;
+        int[] MapDim = new int[2];
+        // ----- GRAPHICS ----- //
+        private const int Echelle = 25;
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // Charge les maps
+            if (!Loaded)
+            {
+                ListeDesMaps.Add(tmap0); 
+                
+                ...
