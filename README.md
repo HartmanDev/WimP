@@ -12,13 +12,16 @@ Microsoft .NET 4.5
 ---------------------------------------------------------------------------------
 
 MINIMAL CONFIGURATION:
-
+- RAM: 512 Mo
+- Windows 7 (32 or 64 bits)
+- Without Service pack -> .Net v4
+- With Service pack 1  -> .Net v4 or greater
 
 ---------------------------------------------------------------------------------
 
 WHAT YOU MUST BE ATTENTIVE TO:
 - X and Y are like this : X goes down from the top, Y goes right from the left. because of the use of Arrays in the programm.
-- Your maze has to be smaller than 100x100, because it's coded in byte.
+- Your maze has to be smaller than 255x255, because it's coded in byte.
 - To use the library you have to use a maze without blanks squares greater than 2x2 or the algo won't be able to find a path.
 
 ---------------------------------------------------------------------------------
